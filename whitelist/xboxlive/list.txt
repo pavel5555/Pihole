@@ -1,1 +1,26 @@
+#Whitelist domains for xbox achievements
 
+
+
+
+0.0.0.0 attestation.xboxlive.comcert.mgt.xboxlive.com
+0.0.0.0 ctldl.windowsupdate.comdef-vef.xboxlive.com
+0.0.0.0 device.auth.xboxlive.comeds.xboxlive.com
+0.0.0.0 help.ui.xboxlive.comlicensing.xboxlive.commicrosoft.com
+0.0.0.0 notify.xboxlive.comsettings-win.data.microsoft.com
+0.0.0.0 title.auth.xboxlive.comtitle.mgt.xboxlive.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 www.msftncsi.com
+0.0.0.0 xbox.ipv6.microsoft.com
+0.0.0.0 xboxexperiencesprod.experimentation.xboxlive.com
+0.0.0.0 xflight.xboxlive.comxkms.xbolive.com
+0.0.0.0 xsts.auth.xboxlive.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com

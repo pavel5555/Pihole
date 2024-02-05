@@ -1,0 +1,339 @@
+#CUSTOM
+
+This endpoint is used for Windows Defender when Cloud-based Protection is enabled. If you turn off traffic for this endpoint 12, the device will not use Cloud-based Protection
+wdcp.microsoft.com
+This endpoint is used for Windows Defender when Cloud-based Protection is enabled. If you turn off traffic for this endpoint 12, the device will not use Cloud-based Protection.
+wdcpalt.microsoft.com
+Used by Windows Defender Antivirus to provide cloud-delivered protection
+tsfe.trafficshaping.dsp.mp.microsoft.com
+Roku - ETWN App
+Symptom: Episode thumbnails were not loading when blocked.
+iOS - Ubiquiti WifiMan
+Symptom: Red warning stating ip-api.com 35 cannot be reached.
+Apple Music streaming tracks not playing
+s.mzstatic.com
+To add games with gold games from xbox Live
+sfdataservice.microsoft.com
+Epicgames Store: Whitelist
+graphql.epicgames.com
+tracking.epicgames.com
+The papa john's where's my pizza requires:
+
+0.0.0.0 viewer.content.glympse.com
+I had to whitelist
+video-stats.video.google.com
+not video-stats.l.google.comto make my youtube android app working!
+Nest Doorbell
+Apparently the Nest Doorbell uses a different server...
+nexus.dropcam.com oculus4395-us1.dropcam.com
+This domain needs to be white listed for "Your Phone Companion" app that connects mobiles to windows 10 to work.
+
+mobile.pipe.aria.microsoft.com
+
+For Apple users: I looked up what URLs need to be whitelisted in order to avoid issues with iCloud, iTunes, etc. and to make things easier, you can just copy & paste this two commands to add all the Apple Provided URLs.
+pihole --white-regex *.push.apple.com *.itunes.apple.com *.apps.apple.com *.mzstatic.com *.amazonaws.com *.cdn-apple.com *.digicert.com deimos3.apple.com *.symcb.com gg*.apple.com *.symcd.com mesu.apple.com
+
+pihole -w albert.apple.com captive.apple.com gs.apple.com humb.apple.com static.ips.apple.com tbsc.apple.com time-ios.apple.com time.apple.com appldnld.apple.com gg.apple.com gnf-mdn.apple.com gnf-mr.apple.com gs.apple.com ig.apple.com mesu.apple.com ns.itunes.apple.com oscdn.apple.com osrecovery.apple.com skl.apple.com swcdn.apple.com swdist.apple.com swdownload.apple.com swpost.apple.com swscan.apple.com updates-http.cdn-apple.com updates.cdn-apple.com xp.apple.com itunes.apple.com ppq.apple.com lcdn-registration.apple.com crl.apple.com crl.entrust.net crl3.digicert.com crl4.digicert.com ocsp.apple.com ocsp.digicert.com ocsp.entrust.net ocsp.verisign.net gdmf.apple.com deviceenrollment.apple.com deviceservices-external.apple.com identity.apple.com iprofiles.apple.com mdmenrollment.apple.com setup.icloud.com vpp.itunes.apple.com
+
+For people having issues with Windows Store Updates and Downloads
+In order to use the ESPN watch website I had to update some of the domains (the ones listed were from 2017). These were the domains that allowed me to watch F1
+
+fpdownload.adobe.com 
+entitlement.auth.adobe.com 
+livepassdl.conviva.com
+www.espn.com
+a1.espncdn.com
+a2.espncdn.com
+a.espncdn.com
+streams.adobeprimetime.com
+sp.auth.adobe.com
+media.video-cdn.espn.com
+cdn1.espn.net
+
+
+ctldl.windowsupdate.com
+displaycatalog.mp.microsoft.com
+dl.delivery.mp.microsoft.com
+sls.update.microsoft.com
+geo-prod.do.dsp.mp.microsoft.com
+
+
+pro.ip-api.com
+reports.crashlytics.com
+f1.media.brightcove.com
+vudu needs 
+0.0.0.0 apicache.vudu.com
+
+for xbox live messages to work, I had to whitelist:
+client-s.gateway.messenger.live.com
+Twitter embeds not working in Google News for iOS, whitelisting
+cdn.syndication.twimg.com
+worked for me.
+
+
+for mobile CNN videos to load
+0.0.0.0 .bea4.v.fwmrm.net
+#Microsoft added another one, found it today when my Xbox One X complained about #"Local Cache not being able to be emptied"
+0.0.0.0 v20.vortex-win.data.microsoft.com
+Images won't load in the cnn ios app without whitelisting
+
+dynaimage.cdn.turner.com 
+target - needs 
+0.0.0.0 api.target.com
+0.0.0.0 redsky.target.com
+0.0.0.0 profile.target.com
+0.0.0.0	to search their site
+
+0.0.0.0	h-sdk.online-metrix.net
+#my banking app needed this to permit functionality on iOS. seems to be tied with #ThreatMetrix
+g.live.com
+Canon printer need this domain to check for firmware update :
+
+gdlp01.c-wss.com
+telemetry-console.api.playstation.co
+mobileandroidapi.punchh.com
+rest.iad-03.braze.com
+appboy-images.com
+Android TV require this domain to download updates :
+redirector.gvt1.com
+For Spotify to work on tv add api-tv.spotify.com in whitelist
+For Citizen's Bank:
+p11.techlab-cdn.com
+v.w-x.co
+iHeart Radio (and Plex Podcast) - unblock this domain for the actual stream needed:
+chtbl.com
+Microsoft store needs
+storeedgefd.dsx.mp.microsoft.com
+to open up
+You need to whitelist edge.activity.windows.com to sync microsoft edge with other devices
+Origin needs to load savegames in the cloud
+
+cloudsync-prod.s3.amazonaws.com
+dge-chat.messenger.com
+scontent-atl3-1.xx.fbcdn.net
+static.xx.fbcdn.net
+edge-chat.messenger.com
+video.xx.fbcdn.net
+To allow searching and downloading Updates for Microsoft Edge Browser this domain is required:
+
+msedge.api.cdp.microsoft.com
+Google Account Settings (Security, etc) access from Android Device
+android.googleapis.com
+
+#
+#
+https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/127
+#
+#
+#
+#
+sfdataservice.microsoft.com 
+fpdownload.adobe.com 
+entitlement.auth.adobe.com 
+livepassdl.conviva.com 
+www.espn.com 
+a1.espncdn.com 
+a2.espncdn.com 
+a.espncdn.com 
+streams.adobeprimetime.com 
+sp.auth.adobe.com 
+media.video-cdn.espn.com 
+cdn1.espn.net 
+ctldl.windowsupdate.com 
+displaycatalog.mp.microsoft.com 
+dl.delivery.mp.microsoft.com 
+sls.update.microsoft.com 
+geo-prod.do.dsp.mp.microsoft.com 
+clients4.google.com 
+clients2.google.com 
+s.youtube.com 
+video-stats.l.google.com 
+android.clients.google.com 
+reminders-pa.googleapis.com 
+firestore.googleapis.com 
+googleapis.l.google.com 
+dl.google.com 
+www.msftncsi.com 
+outlook.office365.com 
+products.office.com 
+c.s-microsoft.com 
+i.s-microsoft.com 
+login.live.com 
+login.microsoftonline.com 
+dl.delivery.mp.microsoft.com 
+geo-prod.do.dsp.mp.microsoft.com 
+displaycatalog.mp.microsoft.com 
+sls.update.microsoft.com.akadns.net 
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
+clientconfig.passport.net 
+v10.events.data.microsoft.com 
+v20.events.data.microsoft.com 
+client-s.gateway.messenger.live.com 
+xbox.ipv6.microsoft.com 
+device.auth.xboxlive.com 
+www.msftncsi.com 
+title.mgt.xboxlive.com 
+xsts.auth.xboxlive.com 
+title.auth.xboxlive.com 
+ctldl.windowsupdate.com 
+attestation.xboxlive.com 
+xboxexperiencesprod.experimentation.xboxlive.com 
+xflight.xboxlive.com 
+cert.mgt.xboxlive.com 
+xkms.xboxlive.com 
+def-vef.xboxlive.com 
+notify.xboxlive.com  
+help.ui.xboxlive.com 
+licensing.xboxlive.com 
+eds.xboxlive.com 
+www.xboxlive.com 
+v10.vortex-win.data.microsoft.com 
+settings-win.data.microsoft.com 
+s.gateway.messenger.live.com 
+client-s.gateway.messenger.live.com 
+ui.skype.com 
+pricelist.skype.com 
+apps.skype.com 
+m.hotmail.com 
+sa.symcb.com 
+s{1..5}.symcb.com 
+officeclient.microsoft.com 
+www.google-analytics.com 
+ssl.google-analytics.com 
+spclient.wg.spotify.com 
+apresolve.spotify.com 
+weeklyad.target.com 
+m.weeklyad.target.com 
+upload.facebook.com 
+creative.ak.fbcdn.net 
+analytics.svt.se 
+weeklyad.target.com.edgesuite.net
+
+cds.s5x3j6q5.hwcdn.net 
+external-lhr0-1.xx.fbcdn.net 
+external-lhr1-1.xx.fbcdn.net 
+external-lhr10-1.xx.fbcdn.net 
+external-lhr2-1.xx.fbcdn.net 
+external-lhr3-1.xx.fbcdn.net 
+external-lhr4-1.xx.fbcdn.net 
+external-lhr5-1.xx.fbcdn.net 
+external-lhr6-1.xx.fbcdn.net 
+external-lhr7-1.xx.fbcdn.net 
+external-lhr8-1.xx.fbcdn.net 
+external-lhr9-1.xx.fbcdn.net 
+fbcdn-creative-a.akamaihd.net 
+scontent-lhr3-1.xx.fbcdn.net 
+scontent.xx.fbcdn.net 
+scontent.fgdl5-1.fna.fbcdn.net 
+graph.facebook.com 
+b-graph.facebook.com 
+connect.facebook.com 
+cdn.fbsbx.com 
+api.facebook.com 
+edge-mqtt.facebook.com 
+mqtt.c10r.facebook.com 
+portal.fb.com 
+star.c10r.facebook.com 
+star-mini.c10r.facebook.com 
+b-api.facebook.com 
+cloudsync-prod.s3.amazonaws.com 
+tracking.epicgames.com
+chevrolet.com
+fb.me bigzipfiles.facebook.com 
+l.facebook.com 
+plex.tv 
+tvdb2.plex.tv 
+pubsub.plex.bz 
+proxy.plex.bz 
+proxy02.pop.ord.plex.bz 
+cpms.spop10.ams.plex.bz 
+meta-db-worker02.pop.ric.plex.bz 
+meta.plex.bz 
+tvthemes.plexapp.com.cdn.cloudflare.net 
+tvthemes.plexapp.com 
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services 
+meta.plex.tv 
+cpms35.spop10.ams.plex.bz 
+proxy.plex.tv 
+metrics.plex.tv 
+pubsub.plex.tv 
+status.plex.tv 
+www.plex.tv 
+node.plexapp.com 
+nine.plugins.plexapp.com 
+staging.plex.tv 
+app.plex.tv 
+o1.email.plex.tv  
+o2.sg0.plex.tv 
+dashboard.plex.tv 
+gravatar.com 
+thetvdb.com 
+themoviedb.com 
+services.sonarr.tv 
+skyhook.sonarr.tv 
+download.sonarr.tv 
+apt.sonarr.tv 
+forums.sonarr.tv 
+placehold.it 
+placeholdit.imgix.net 
+dl.dropboxusercontent.com 
+ns1.dropbox.com 
+ns2.dropbox.com 
+itunes.apple.com 
+s.mzstatic.com 
+appleid.apple.com 
+fpdownload.adobe.com 
+entitlement.auth.adobe.com 
+livepassdl.conviva.com 
+gfwsl.geforce.com 
+delivery.vidible.tv 
+img.vidible.tv 
+videos.vidible.tv 
+edge.api.brightcove.com 
+cdn.vidible.tv 
+dev.virtualearth.net 
+ecn.dev.virtualearth.net 
+t0.ssl.ak.dynamic.tiles.virtualearth.net 
+t0.ssl.ak.tiles.virtualearth.net 
+android.clients.google.com 
+appspot-preview.l.google.com 
+connectivitycheck.android.com 
+android.clients.google.com 
+clients3.google.com 
+connectivitycheck.gstatic.com 
+msftncsi.com 
+www.msftncsi.com 
+ipv6.msftncsi.com 
+captive.apple.com 
+gsp1.apple.com 
+www.apple.com 
+www.appleiphonecell.com 
+prod.telemetry.ros.rockstargames.com 
+chevrolet.com 
+tracking.epicgames.com 
+79423.analytics.edgekey.net 
+assets.adobedtm.com 
+nexus.ensighten.com 
+tracking-protection.cdn.mozilla.net 
+v10.vortex-win.data.microsoft.com
+ud-chat.signal.org
+chat.signal.org
+storage.signal.org
+signal.org
+www.signal.org
+updates2.signal.org
+textsecure-service-whispersystems.org
+giphy-proxy-production.whispersystems.org
+cdn.signal.org
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+d83eunklitikj.cloudfront.net
+souqcdn.com
+cms.souqcdn.com
+api.directory.signal.org
+contentproxy.signal.org
+turn1.whispersystems.org
+twitter.com
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
+pihole --white-regex (\.|^)twimg\.com$
